@@ -1,0 +1,43 @@
+SET(
+    SOURCES screens/ui_LoginRegisteWin.c screens/ui_doctorWin.c screens/ui_ditu123.c screens/ui_guahaoWin.c
+    ui.c
+    images/ui_img_tijiao_png.c
+    images/ui_img_headguahao_png.c
+    images/ui_img_loginregiste_png.c
+    images/ui_img_xianshi_png.c
+    images/ui_img_yincang_png.c
+    images/ui_img_659432751.c
+    images/ui_img_1266464991.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    images/ui_img_back_png.c
+    images/ui_img_jxyl_png.c
+    images/ui_img_zyk_png.c
+    images/ui_img_jxylkfk_png.c
+    images/ui_img_jxylnk_png.c
+    images/ui_img_jxylwk_png.c
+    images/ui_img_missdoctor_png.c
+    images/ui_img_ditu234_png.c
+    images/ui_img_zhongyike_png.c
+    images/ui_img_shoufutix_png.c
+    images/ui_img_shoufutiis_png.c
+    images/ui_img_kangfuke_png.c
+    images/ui_img_cesuo_png.c
+    images/ui_img_sostongdao_png.c
+    images/ui_img_neike_png.c
+    images/ui_img_waike_png.c
+    images/ui_img_ditu1_png.c
+    images/ui_img_damen_png.c
+    images/ui_img_denghouqu_png.c
+    images/ui_img_jiaofeichu_png.c
+    images/ui_img_quyaochu_png.c
+    images/ui_img_qiantai_png.c
+    images/ui_img_zixun_png.c
+    images/ui_img_yiceng_png.c
+    images/ui_img_sanceng_png.c
+    images/ui_img_erceng_png.c
+    images/ui_img_style1_png.c
+    ui_temporary_image.c
+    fonts/ui_font_CHINESEsize25.c) 
+
+add_library(ui ${SOURCES})
